@@ -46,22 +46,33 @@ img{
     flex: 1;
 }
 
-.about-container {
+.set {
     display: flex;
+    margin-bottom: 20px;
+}
+
+.about-container {
     justify-content: space-between;
 }
 
-.set {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-}
 
 .hobbies-container{
-    display: flex;
-    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.text-container{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: rgb(9, 124, 124);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+footer p{
+    color: aliceblue;
+    font-style: italic;
 }
