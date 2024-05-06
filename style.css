@@ -1,31 +1,38 @@
-header{
-    background-color: rgb(9, 124, 124);
+body {
+    background-color: #537494; 
+}
+
+header {
+    background-color: #2c3e50; 
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-nav{
+nav {
     overflow: hidden;
-    background-color: rgb(243, 213, 130);
-    border-bottom: 15px;
-    border-bottom: rgb(212, 255, 94);
+    background-color: #3498db; 
 }
 
-nav a{
+nav a {
     float: left;
     display: block;
-    color: rgb(43, 157, 233);
+    color: #f39c12; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-nav a:hover{
-    background-color: blueviolet;
-    color: darkblue;
+nav a:hover {
+    background-color: #9b59b6; 
+    color: #2980b9;
 }
 
+.bio{
+    font-size: 23px;
+    flex: 1;
+    margin-right: 40px;
+}
 
 #container{
     display: flex;
@@ -34,7 +41,7 @@ nav a:hover{
 
 .portrait{
     flex: 1;
-    margin-right: 20px;
+    margin-: 20px;
 }
 
 img{
@@ -42,13 +49,12 @@ img{
     height: auto;
 }
 
-.bio{
-    flex: 1;
-}
-
 .set {
     display: flex;
-    margin-bottom: 20px;
+    margin: 20px;
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
 }
 
 .about-container {
@@ -64,15 +70,15 @@ img{
     margin-left: 20px;
 }
 
-footer{
-    background-color: rgb(9, 124, 124);
+footer {
+    background-color: #2c3e50;
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: left;
 }
 
-footer p{
-    color: aliceblue;
+footer p {
+    color: #ecf0f1;
     font-style: italic;
 }
